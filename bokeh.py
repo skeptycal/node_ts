@@ -6,6 +6,10 @@ import json  # requires python >= 2.6
 import sys
 from typing import Dict
 
+from bokeh.io import output_file, show
+
+form bokeh.plotting import figure
+
 # @info
 name = "bokeh"
 json_file = sys.path[0] + "/" + name + ".json"

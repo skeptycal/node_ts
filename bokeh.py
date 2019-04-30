@@ -8,7 +8,7 @@ from typing import Dict
 
 from bokeh.io import output_file, show
 
-form bokeh.plotting import figure
+from bokeh.plotting import figure
 
 # @info
 name = "bokeh"
